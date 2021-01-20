@@ -1,0 +1,85 @@
+*
+{
+    box-sizing: border-box;
+}
+header
+{
+    background-color: aqua;
+    padding: 20px;
+    min-height: 5%;
+    overflow: hidden;
+}
+header h2
+{
+    padding: 0px;
+    text-align: center;
+}
+nav
+{
+    text-align: center;
+    background-color: beige;
+    padding:10px;
+}
+nav a
+{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding: 5px;
+    padding-right: 81px;
+    align-items: center;
+
+}
+main
+{
+    background-color: white;
+    text-align: center;
+}
+main section a{
+   background-color: springgreen;
+
+
+}
+main section a img
+{
+    border-radius: 5px;
+    padding: 2px;
+    border-color: tomato;
+    border-width: 2cm;
+    border-top: tomato;
+}
+#sai img
+{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+#sai p
+{
+    background-color: turquoise;
+    text-justify: auto;
+}
+footer
+{
+    background-color: teal;
+    overflow: hidden;
+    padding: 20px;
+    min-height: 2vh;
+    text-align: center;
+}
+footer section input[type=email]
+{
+    border-radius: 50px;
+    border-color: tomato;
+    padding: 5px;
+    padding-right: 50px;
+}
+footer section input[type=submit]
+{
+    border-radius: 50px;
+    border-color: tomato;
+    padding: 5px;
+    padding-right: 5px;
+    align-items: center;
+    float: center;
+}
